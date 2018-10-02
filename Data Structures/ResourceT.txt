@@ -1,0 +1,10 @@
+"ARD3281","Aurdino","Computing Base Roll Up",,,
+"F1287","File","C:\wow.exe",".exe",100,Jack
+"LEG4123","Lego WeDo","Computing Base Roll Up",,,
+"MBT7142","BBC MicroBit","Computing Base Roll Up",,,
+"NXT1263","NXT","Computing Base",,,
+"PRD6491","ACER Predator","Computing Base",,,
+"PRG9785","Programming PC","C1-29",,,
+"RPI6351","Raspberry Pi","Computing Base",,,
+"SPC1240","Server PC","Computing Research Area",,,
+"UPC8123","User PC","Computing Research Area",,,

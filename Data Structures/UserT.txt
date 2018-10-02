@@ -1,0 +1,4 @@
+1,"Jack Watt","Riotshielder21","jackwatt1",1
+2,"Callum Candy","Nexustini","Password1",1
+3,"Calum Scot","Mr_Xeno","Password1",0
+4,"User","User","Password1",0
