@@ -9,9 +9,9 @@ div .mItem , .Menu, #tMenuStat{
 #title{
     background-color: white;
     -webkit-animation-name: Disco; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
     animation-name: Disco;
-    animation-duration: 4s;
+    animation-duration: 20s;
 	animation-iteration-count: infinite;
 }
 @-webkit-keyframes MenuPeep {
@@ -33,25 +33,25 @@ div .mItem , .Menu, #tMenuStat{
 	0%  {background-color:Red}
 	10%	{background-color:Orange}
 	20% {background-color:yellow}
-	30%	{background-color:lime}
-	40% {background-color:green}
-	50%	{background-color:turquoise}
-	60% {background-color:cyan}
-	70%	{background-color:blue}
-    80%{background-color:indigo}
+	30%	{background-color:lime; color:black}
+	40% {background-color:green; color:white}
+	50%	{background-color:turquoise; color:black}
+	60% {background-color:cyan; color:black}
+	70%	{background-color:blue; color:white}
+    80%{background-color:indigo; color:white}
 	90%{background-color:Purple}
-	100%{background-color:magenta}
+	100%{background-color:magenta; color:black}
 }
 @-webkit-keyframes Disco{
 	0%  {background-color:Red}
 	10%	{background-color:Orange}
 	20% {background-color:yellow}
-	30%	{background-color:lime}
-	40% {background-color:green}
-	50%	{background-color:turquoise}
-	60% {background-color:cyan}
-	70%	{background-color:blue}
-    80%{background-color:indigo}
+	30%	{background-color:lime; color:black}
+	40% {background-color:green; color:white}
+	50%	{background-color:turquoise; color:black}
+	60% {background-color:cyan; color:black}
+	70%	{background-color:blue; color:white}
+    80%{background-color:indigo; color:white}
 	90%{background-color:Purple}
-	100%{background-color:magenta}
+	100%{background-color:magenta; color:black}
 }
