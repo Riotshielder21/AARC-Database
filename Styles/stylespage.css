@@ -1,0 +1,165 @@
+#titleBlock {
+	text-align: center; 
+	Position: Absolute;
+	display: inline-Block; 
+	left: 200px; 
+	width: 1000px;
+	height: 80px;
+	Margin-top: 20px;
+}
+#box {
+	border:1px solid black;
+	width: 1600px;
+	height:900px;
+}
+#tMenuStat {
+	Display:inline-Block;
+	Position: static;
+	width:40px;
+	border: 1px solid black;
+	text-align: center;
+	margin:109 0 0 0;
+	font: 20px verdana;
+	color: White;
+	margin-right:0px;
+	right:0px;
+	-webkit-transition: all .2s ease-out;
+    transition:  .2s ease-out;
+	transform: rotate(90deg);
+}
+
+.mItem{
+	width:auto;
+	height:40px;
+	position:static;
+	display:block;
+	border-bottom: 1px solid black;	
+	font: 20px verdana;
+	text-shadow:.2px .2px;
+	text-align:center;
+	color: White;
+}
+a{
+	color: White;
+	text-shadow:.2px .2px;
+	font-style: None;
+}
+a:hover{
+	color: Green;
+	text-shadow:.2px .2px;
+}
+a:visited{
+	color: white;
+	text-shadow:.2px .2px;	
+}
+.Menu{
+	Height: 900px;
+	display: inline-Block; 
+	border: 1px solid black;
+	width: 150px;
+	background-color:#0040ff;
+	position:Relative;
+	left: -155px;
+	-webkit-transition: left 1s ease-out;
+    transition: left 1s ease-out;
+	z-index=1;
+}
+img{
+	Display:inline-Block;
+	position: static;
+	width: 28.5em;
+	height:25em;
+	border: 1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	border-Radius:1px
+
+}
+.mainBody{
+	Position:inline-Block;
+	margin-top:30px;
+	font: 16px verdana;
+
+}
+.Menu:hover{
+	left:-5px;
+	position:relative;
+	z-index:1;
+}
+#tMenuOpen{
+	display: inline-block;
+	position:static;
+}
+#title{
+	Border: 2px outset black;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-radius: 40px;
+}
+#doubleBox{
+	border: 1px solid black;
+	display:inline-block;
+	position:relative;
+}
+#form_Box{
+	border: 1px solid black;
+}
+#doubleBox th, #doubleBox td, #doubleBox tr, #doubleBox table {
+	border: 1px solid black;
+	display:inline-block;
+	position:relative;
+}
+@media screen and (max-width:1200px) {
+#titleBlock {
+	Width: 1000px;
+	left: 100px;
+}
+#box {
+	Width: 1100px;
+	height:620px;
+}
+img{
+	width: 20em;
+	height:18em;
+}	
+.Menu{
+	Height: 620px;
+}
+}
+@media screen and (max-width:900px) {
+#titleBlock {
+	Width: 700px;
+	left: 50px;
+	border-radius: 35px;
+}
+#box {
+	Width: 800px;
+	height: 450px;	
+}
+img{
+	width: 15em;
+	height:14em;
+}	
+.Menu{
+	Height: 450px;
+}
+
+@media screen and (max-width:512px) {
+#titleBlock {
+	Width: 350px;
+	left: 50px;
+	border-radius: 30px;
+}
+#box {
+	Width: 400px;
+	height: 225px;
+}
+img{
+	width: 10em;
+	height:9em;
+}	
+.Menu{
+	Height: 225px;
+}
+}

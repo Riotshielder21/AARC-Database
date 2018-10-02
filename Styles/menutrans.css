@@ -1,0 +1,57 @@
+div .mItem , .Menu, #tMenuStat{
+    background-color: #0040ff;
+    -webkit-animation-name: MenuPeep; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: MenuPeep;
+    animation-duration: 3s;
+	z-index=0;
+}
+#title{
+    background-color: white;
+    -webkit-animation-name: Disco; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: Disco;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes MenuPeep {
+    0%   {background-color:#0040ff; left:-155px; top:0px; z-index=1}
+	25%  {background-color:#0040ff; left:0px; top:0px; z-index=1}
+	50%  {background-color:#0040ff; left:0px; top:0px; z-index=1}
+	75%  {background-color:#0040ff; left:0px; top:0px; z-index=1}
+    100% {background-color:#0040ff; left:-155px; top:0px; z-index=1}
+}
+
+@keyframes MenuPeep {
+    0%   {background-color:#0040ff; left:-155px; top:0px; z-index=1}
+	25%  {background-color:#0040ff; left:0px; top:0px; z-index=1}
+	50%  {background-color:#0040ff; left:0px; top:0px; z-index=1}
+	75%  {background-color:#0040ff; left:0px; top:0px; z-index=1}
+    100% {background-color:#0040ff; left:-155px; top:0px; z-index=1}
+}
+@keyframes Disco{
+	0%  {background-color:Red}
+	10%	{background-color:Orange}
+	20% {background-color:yellow}
+	30%	{background-color:lime}
+	40% {background-color:green}
+	50%	{background-color:turquoise}
+	60% {background-color:cyan}
+	70%	{background-color:blue}
+    80%{background-color:indigo}
+	90%{background-color:Purple}
+	100%{background-color:magenta}
+}
+@-webkit-keyframes Disco{
+	0%  {background-color:Red}
+	10%	{background-color:Orange}
+	20% {background-color:yellow}
+	30%	{background-color:lime}
+	40% {background-color:green}
+	50%	{background-color:turquoise}
+	60% {background-color:cyan}
+	70%	{background-color:blue}
+    80%{background-color:indigo}
+	90%{background-color:Purple}
+	100%{background-color:magenta}
+}
