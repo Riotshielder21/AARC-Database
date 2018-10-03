@@ -8,7 +8,9 @@
 	Margin-top: 20px;
 }
 #box {
-	border:1px solid black;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
 	width: 1600px;
 	height:900px;
 }
@@ -105,11 +107,69 @@ img{
 #form_Box{
 	border: 1px solid black;
 }
-#doubleBox th, #doubleBox td, #doubleBox tr, #doubleBox table {
+#form2{
+	width:400px;
+	height:160px
+}
+th, td, tr, table {
 	border: 1px solid black;
 	display:inline-block;
 	position:relative;
+	text-align:left;
 }
+#IDtd{
+	width:40px;
+}
+#Nametd{
+	width:150px;
+}
+#Qtytd{
+	width:40px;
+}
+#Datetd{
+	width:190px;
+}
+#Checktd{
+	width:105px;
+}
+#Typetd{
+	width:100px;
+}
+#Locationtd{
+	width:200px;
+}
+#amendid{
+	width:63px;
+}
+#deleteid{
+	width:65px;
+}
+#amendid a{
+	color: Red;
+}
+#deleteid a{
+	color: Red;
+}
+#amendid a:hover{
+	color: Green;
+	text-shadow:.2px .2px;
+}
+#deleteid a:hover{
+	color: Green;
+	text-shadow:.2px .2px;
+}
+#plain{
+	color: Red;
+}
+#plain:hover{
+	color: Green;
+	text-shadow:.2px .2px;
+}
+footer {
+	text-align:center;
+}
+.trless tr{border:none;}
+
 @media screen and (max-width:1200px) {
 #titleBlock {
 	Width: 1000px;
@@ -143,23 +203,4 @@ img{
 }	
 .Menu{
 	Height: 450px;
-}
-
-@media screen and (max-width:512px) {
-#titleBlock {
-	Width: 350px;
-	left: 50px;
-	border-radius: 30px;
-}
-#box {
-	Width: 400px;
-	height: 225px;
-}
-img{
-	width: 10em;
-	height:9em;
-}	
-.Menu{
-	Height: 225px;
-}
 }
