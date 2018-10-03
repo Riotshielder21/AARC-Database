@@ -26,6 +26,6 @@
 		<div id="titleBlock">
 	
 			<h1 id="title">AARC Requests Form</h1>
-	
+				<!--to fill in php commands for creating text file here-->
 			<div class="mainBody">
 			
