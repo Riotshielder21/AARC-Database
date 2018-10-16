@@ -28,6 +28,7 @@
 			<div class="mItem"><a href="Network.html">Network</a></div>
 			<div class="mItem"><a href="Request.php">Request</a></div>
 			<div class="mItem"><a href="Upload.php">Upload</a></div>
+			<div class="mItem" onclick="help()">Help</div>
 		</div>
 		
 		<div id="titleBlock">
@@ -37,19 +38,19 @@
 			<div class="mainBody">
 				<?php
 				
-	//initialise 
+	// initialise 
 	// $Username = '';
 	// $Password = '';
 	// $Submit = 0;
 		
 	// Check if the form was submitted
-	if(isset($_POST['title']) and isset($_POST['report'])){
+	if($_SERVER["REQUEST_METHOD"] == "POST"){
 		
 		//POST Username and Password and report content
 		// $Username = filter_var(trim(stripslashes($_POST['Username'])));
 		// $Password = filter_var(trim(stripslashes($_POST['Password'])));
-		$title = filter_var(trim($_POST['title']));
-		$report = filter_var(trim($_POST['report']));
+		// $Title = filter_var(trim($_POST['title']));
+		// $Report = filter_var(trim($_POST['report']));
 
 		
 		//Get Username's Password
@@ -70,11 +71,10 @@
 			
 			//Check Authority
 			// If ($submit==1){
-				$title = $title . "\n";
-				//$fname = 'report' . date ('m:d-h:i');
-				//$fname = substr($title, 0, 2) . date ('m:d-h:i');
+				
+				$fname = substr($title, 0, 2) . date ('m:d-h:i');
 				$reportfile = fopen("C:/Users/User/Desktop/".$fname.".txt", "w") or die("Unable to open file!");
-				fwrite($reportfile, $title);
+				fwrite($reportfile, $title . "\n");
 				fwrite($reportfile, $report);
 				fclose($reportfile);
 				echo "Upload Complete!";
@@ -92,9 +92,8 @@
 						<!--<label id="usrform" name="Text">Please Enter Username and Password:</label><br />
 						<input type="text" name="Username" Placeholder="Username:"/><br />
 						<input type="password" name="Password" Placeholder="Password:"/><br /><br />-->
-						<label name="t" for="title">Title:</label>
+						<label name="report" for="report">Report:</label>
 						<input type="Text" name="title" id="tbox"><br />
-						<label name="r" for="report">Report:</label>
 						<textarea form="usrform" name="report" id="report"><br />
 						<input type="submit" name="submit" Value="submit">
 					</form>
