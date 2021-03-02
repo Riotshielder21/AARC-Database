@@ -1,2 +1,2 @@
 # AARC Database
-This project is a stock inentory system research and database content is still to be added but over time it will be populated with all the files needed
+Networkable file share system using a web interface for any device connected in a local network or for global acces when a service is set up and provided a gateway
